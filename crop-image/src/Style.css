@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: turquoise;
+}
+.main-container {
+    margin: 50px auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+.border-right {
+    border-right: 1px dashed tomato;
+}
+.preview-image {
+    height: 300px;
+}
+.cropped-image-container img {
+    height: 90%;
+    border-radius: 50%;
+    padding: 10px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.preview-image .links {
+    text-align: center;
+}
+.preview-image .links a {
+    margin-right: 5px;
+}
+.image-preview, .cropper {
+    height: 100%;
+}
+.cropped-image-container, .upload-image-container {
+    height: 300px;
+    border: 1px dashed rgb(117, 50, 205);
+    position: relative;
+}
+.upload-image-container .upload-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-top: 1px dashed yellowgreen;
+    border-left: 1px dashed yellowgreen;
+    border-bottom: none;
+    border-right: none;
+    padding: 5px;
+    text-decoration: none;
+    color: #0d6efb;
+    cursor: pointer;
+}
+
+.upload-image-container .save-btn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 1px dashed yellowgreen;
+    border-right: 1px dashed yellowgreen;
+    border-bottom: none;
+    border-left: none;
+    padding: 5px;
+    text-decoration: none;
+    color: #0d6efb;
+    cursor: pointer;
+}
